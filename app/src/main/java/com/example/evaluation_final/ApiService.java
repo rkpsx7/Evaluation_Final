@@ -5,6 +5,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public interface ApiService {
-    @GET("/posts/{postId}")
-    Call<GET> getPost(@Path("postId") int id);
+    @GET("/GET/{get}")
+    Call<GET> get(@Path("get") int id);
 }
