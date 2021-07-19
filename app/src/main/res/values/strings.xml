@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Evaluation_Final</string>
+    <string name="covid_tracker_app_title">Covid Tracker</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="home">Home</string>
+</resources>

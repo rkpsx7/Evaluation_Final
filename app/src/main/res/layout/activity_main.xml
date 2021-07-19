@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/covid_tracker_app_title"
+        android:textSize="44dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_marginTop="33dp"
+        />
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvTitle"
+        android:hint="@string/email_hint"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/et_back"
+
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="88dp"
+        />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/etUserEmail"
+        android:hint="@string/password_hint"
+        android:background="@drawable/et_back"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="58dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chkBoxRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        android:buttonTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@id/etPassword"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#ff0000"
+        android:layout_below="@id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        />
+
+
+</RelativeLayout>
